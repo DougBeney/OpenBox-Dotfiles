@@ -1,3 +1,2 @@
-compton
-dunst
-nemo --desktop
+compton --daemon
+dunst &

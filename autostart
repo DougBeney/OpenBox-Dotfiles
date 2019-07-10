@@ -1,3 +1,2 @@
 compton --daemon
-dunst &
 nitrogen --restore

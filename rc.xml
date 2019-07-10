@@ -385,12 +385,27 @@
     </keybind>
     <keybind key="C-A-Return">
       <action name="Execute">
-        <command>nemo</command>
+        <command>dolphin</command>
       </action>
     </keybind>
     <keybind key="W-e">
       <action name="Execute">
         <command>emacsclient -c</command>
+      </action>
+    </keybind>
+    <keybind key="W-c">
+      <action name="Execute">
+        <command>galculator</command>
+      </action>
+    </keybind>
+    <keybind key="W-t">
+      <action name="Execute">
+        <command>leafpad</command>
+      </action>
+    </keybind>
+    <keybind key="W-S-t">
+      <action name="Execute">
+        <command>thunderbird</command>
       </action>
     </keybind>
     <keybind key="W-d">

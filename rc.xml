@@ -40,7 +40,7 @@
                   'Active' - where the active window is -->
   </placement>
   <theme>
-    <name>Clearlooks-3.4</name>
+    <name>Natura</name>
     <titleLayout>NLIMC</titleLayout>
     <!--
       available characters are NDSLIMC, each can occur at most once.
@@ -56,7 +56,7 @@
     <animateIconify>yes</animateIconify>
     <font place="ActiveWindow">
       <name>sans</name>
-      <size>8</size>
+      <size>10</size>
       <!-- font size in points -->
       <weight>bold</weight>
       <!-- 'bold' or 'normal' -->
@@ -92,7 +92,7 @@
     </font>
     <font place="ActiveOnScreenDisplay">
       <name>sans</name>
-      <size>9</size>
+      <size>12</size>
       <!-- font size in points -->
       <weight>bold</weight>
       <!-- 'bold' or 'normal' -->
@@ -101,7 +101,7 @@
     </font>
     <font place="InactiveOnScreenDisplay">
       <name>sans</name>
-      <size>9</size>
+      <size>12</size>
       <!-- font size in points -->
       <weight>bold</weight>
       <!-- 'bold' or 'normal' -->
@@ -400,7 +400,7 @@
     </keybind>
     <keybind key="W-t">
       <action name="Execute">
-        <command>leafpad</command>
+        <command>pluma</command>
       </action>
     </keybind>
     <keybind key="W-S-t">
@@ -428,6 +428,31 @@
     <keybind key="W-S-F10">
       <action name="Execute">
         <command>amixer set Master 10%+</command>
+      </action>
+    </keybind>
+    <keybind key="XF86AudioRaiseVolume">
+      <action name="Execute">
+        <command>amixer set Master 10%+</command>
+      </action>
+    </keybind>
+    <keybind key="XF86AudioLowerVolume">
+      <action name="Execute">
+        <command>amixer set Master 10%-</command>
+      </action>
+    </keybind>
+    <keybind key="XF86AudioMute">
+      <action name="Execute">
+        <command>amixer set Master toggle</command>
+      </action>
+    </keybind>
+    <keybind key="XF86MonBrightnessUp">
+      <action name="Execute">
+        <command>xbacklight -inc 10</command>
+      </action>
+    </keybind>
+    <keybind key="XF86MonBrightnessDown">
+      <action name="Execute">
+        <command>xbacklight -dec 10</command>
       </action>
     </keybind>
   </keyboard>

@@ -1,3 +1,4 @@
 compton --daemon
 hsetroot -solid "#000000"
 conky &
+dunst &

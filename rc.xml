@@ -420,39 +420,47 @@
         <command>rofi -show window</command>
       </action>
     </keybind>
-    <keybind key="W-S-F9">
+
+    <keybind key="W-S-F9 XF86AudioLowerVolume">
       <action name="Execute">
-        <command>amixer set Master 10%-</command>
+        <command>amixer set Master 5%-</command>
       </action>
     </keybind>
-    <keybind key="W-S-F10">
+    <keybind key="W-S-F10 XF86AudioRaiseVolume">
       <action name="Execute">
-        <command>amixer set Master 10%+</command>
+        <command>amixer set Master 5%+</command>
       </action>
     </keybind>
-    <keybind key="XF86AudioRaiseVolume">
-      <action name="Execute">
-        <command>amixer set Master 10%+</command>
-      </action>
-    </keybind>
-    <keybind key="XF86AudioLowerVolume">
-      <action name="Execute">
-        <command>amixer set Master 10%-</command>
-      </action>
-    </keybind>
-    <keybind key="XF86AudioMute">
+    <keybind key="W-S-F7 XF86AudioMute">
       <action name="Execute">
         <command>amixer set Master toggle</command>
       </action>
     </keybind>
+
+    <keybind key="W-S-F8">
+      <action name="Execute">
+        <command>playerctl play-pause</command>
+      </action>
+    </keybind>
+    <keybind key="W-S-F11">
+      <action name="Execute">
+        <command>playerctl previous</command>
+      </action>
+    </keybind>
+    <keybind key="W-S-F12">
+      <action name="Execute">
+        <command>playerctl next</command>
+      </action>
+    </keybind>
+
     <keybind key="XF86MonBrightnessUp">
       <action name="Execute">
-        <command>xbacklight -inc 10</command>
+        <command>xbacklight -inc 5</command>
       </action>
     </keybind>
     <keybind key="XF86MonBrightnessDown">
       <action name="Execute">
-        <command>xbacklight -dec 10</command>
+        <command>xbacklight -dec 5</command>
       </action>
     </keybind>
   </keyboard>

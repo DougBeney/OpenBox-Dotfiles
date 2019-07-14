@@ -2,3 +2,4 @@ compton --daemon
 hsetroot -solid "#000000"
 conky &
 dunst &
+stalonetray --config /home/doug/.config/openbox/stalonetrayrc &

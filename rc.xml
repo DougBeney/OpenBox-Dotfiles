@@ -156,24 +156,7 @@
     <left>0</left>
     <right>0</right>
   </margins>
-  <dock>
-    <position>TopLeft</position>
-    <!-- (Top|Bottom)(Left|Right|)|Top|Bottom|Left|Right|Floating -->
-    <floatingX>0</floatingX>
-    <floatingY>0</floatingY>
-    <noStrut>no</noStrut>
-    <stacking>Above</stacking>
-    <!-- 'Above', 'Normal', or 'Below' -->
-    <direction>Vertical</direction>
-    <!-- 'Vertical' or 'Horizontal' -->
-    <autoHide>no</autoHide>
-    <hideDelay>300</hideDelay>
-    <!-- in milliseconds (1000 = 1 second) -->
-    <showDelay>300</showDelay>
-    <!-- in milliseconds (1000 = 1 second) -->
-    <moveButton>Middle</moveButton>
-    <!-- 'Left', 'Middle', 'Right' -->
-  </dock>
+
   <keyboard>
     <chainQuitKey>C-g</chainQuitKey>
     <!-- Keybindings for desktop switching -->
@@ -798,6 +781,20 @@
       </mousebind>
     </context>
   </mouse>
+
+  <dock>
+    <position>TopLeft</position>
+    <stacking>Below</stacking>
+    <direction>Horizontal</direction>
+    <floatingX>0</floatingX>
+    <floatingY>0</floatingY>
+    <autoHide>no</autoHide>
+    <hideDelay>300</hideDelay>
+    <showDelay>300</showDelay>
+    <moveButton>Button8</moveButton>
+    <noStrut>yes</noStrut>
+  </dock>
+
   <menu>
     <!-- You can specify more than one menu file in here and they are all loaded,
        just don't make menu ids clash or, well, it'll be kind of pointless -->

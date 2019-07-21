@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <openbox_config xmlns="http://openbox.org/3.4/rc" xmlns:xi="http://www.w3.org/2001/XInclude">
   <theme>
-    <name>Natura</name>=
+    <name>Adapta-Nokto</name>=
     <font place="ActiveWindow">
       <size>12</size>
     </font>
@@ -222,6 +222,9 @@
       <mousebind button="W-Left" action="Drag">
         <action name="Move"/>
       </mousebind>
+      <mousebind button="A-Right" action="Drag">
+        <action name="Resize"/>
+      </mousebind>
     </context>
 
     <context name="Titlebar">
@@ -269,6 +272,7 @@
         <action name="Iconify"/>
       </mousebind>
     </context>
+
     <context name="Maximize">
       <mousebind button="Left" action="Press">
         <action name="Focus"/>
@@ -299,6 +303,7 @@
         </action>
       </mousebind>
     </context>
+
     <context name="Close">
       <mousebind button="Left" action="Press">
         <action name="Focus"/>

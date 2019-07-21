@@ -783,7 +783,7 @@
   </mouse>
 
   <dock>
-    <position>TopLeft</position>
+    <position>BottomRight</position>
     <stacking>Below</stacking>
     <direction>Horizontal</direction>
     <floatingX>0</floatingX>

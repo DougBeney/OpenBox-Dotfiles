@@ -327,6 +327,7 @@
     <position>BottomRight</position>
     <stacking>Below</stacking>
     <direction>Horizontal</direction>
+    <noStrut>yes</noStrut>
   </dock>
 
   <menu>

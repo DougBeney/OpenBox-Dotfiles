@@ -3,22 +3,22 @@
   <theme>
     <name>Adapta-Nokto</name>=
     <font place="ActiveWindow">
-      <size>12</size>
+      <size>9</size>
     </font>
     <font place="InactiveWindow">
-      <size>12</size>
+      <size>9</size>
     </font>
     <font place="MenuHeader">
-      <size>12</size>
+      <size>9</size>
     </font>
     <font place="MenuItem">
-      <size>12</size>
+      <size>9</size>
     </font>
     <font place="ActiveOnScreenDisplay">
-      <size>12</size>dffff
+      <size>9</size>dffff
     </font>
     <font place="InactiveOnScreenDisplay">
-      <size>12</size>
+      <size>9</size>
     </font>
   </theme>
   <resize>

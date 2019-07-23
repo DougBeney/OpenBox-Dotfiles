@@ -1,9 +1,9 @@
-compton --daemon
-hsetroot -solid "#000000"
-dunst &
-guake &
-conky --config $HOME/.config/openbox/conky.conf &
-stalonetray --config $HOME/.config/openbox/stalonetrayrc &
-insync start
 xsetroot -solid "#00008B"
 hsetroot -solid "#00008B"
+compton --daemon
+dunst &
+
+stalonetray --config $HOME/.config/openbox/stalonetrayrc &
+conky --config $HOME/.config/openbox/conky.conf &
+guake &
+insync start

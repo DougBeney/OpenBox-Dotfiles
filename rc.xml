@@ -186,6 +186,12 @@
       </action>
     </keybind>
 
+    <keybind key="XF86AudioMicMute">
+      <action name="Execute">
+        <command>amixer set Capture toggle</command>
+      </action>
+    </keybind>
+
     <keybind key="W-S-F8">
       <action name="Execute">
         <command>playerctl play-pause</command>

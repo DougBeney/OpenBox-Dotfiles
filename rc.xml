@@ -114,7 +114,7 @@
 
     <keybind key="W-Return">
       <action name="Execute">
-        <command>kitty</command>
+        <command>urxvt</command>
       </action>
     </keybind>
 

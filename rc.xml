@@ -114,13 +114,19 @@
 
     <keybind key="W-Return">
       <action name="Execute">
-        <command>kitty</command>
+        <command>xfce4-terminal</command>
       </action>
     </keybind>
 
     <keybind key="W-S-Return">
       <action name="Execute">
         <command>firefox</command>
+      </action>
+    </keybind>
+
+    <keybind key="W-A-S-Return">
+      <action name="Execute">
+        <command>firefox --private-window</command>
       </action>
     </keybind>
 

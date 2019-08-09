@@ -20,6 +20,13 @@
       <size>9</size>
     </font>
   </theme>
+
+  <applications>
+    <application class="*">
+      <decor>no</decor>
+    </application>
+  </applications>
+
   <resize>
     <drawContents>yes</drawContents>
   </resize>

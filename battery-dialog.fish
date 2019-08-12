@@ -1,13 +1,13 @@
 #!/usr/bin/env fish
 
-set -x DISPLAY :0
-
 # If charging, exit.
 if test (cat /sys/class/power_supply/BAT0/status) = "Charging"
     exit
 end
 
-# Battery percentage
+set -x DISPLAY :0
+
+# Current battery percentage
 set BAT (cat /sys/class/power_supply/BAT0/capacity)
 
 function battery_prompt

@@ -2,6 +2,7 @@ xsetroot -solid "#00008B"
 hsetroot -solid "#00008B"
 compton --daemon
 dunst &
+kmix &
 
 stalonetray --config $HOME/.config/openbox/stalonetrayrc &
 conky --config $HOME/.config/openbox/conky.conf &
